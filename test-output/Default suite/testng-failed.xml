@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Script.SearchTbScript">
+        <methods>
+          <include name="openapp"/>
+          <include name="search"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- Script.SearchTbScript -->
+      <class name="Script.AddScenario">
+        <methods>
+          <include name="add"/>
+          <include name="openapp"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- Script.AddScenario -->
+      <class name="Script.LocationTrackingScript">
+        <methods>
+          <include name="openapp"/>
+          <include name="script2"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- Script.LocationTrackingScript -->
+      <class name="Script.SelectCheckBox">
+        <methods>
+          <include name="openapp"/>
+          <include name="search"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- Script.SelectCheckBox -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
